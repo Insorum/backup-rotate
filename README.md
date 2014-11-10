@@ -40,7 +40,7 @@ Example config:
         "backup_command": "cp /opt/something/data /var/backups/",
         "backup_dir": "/var/backups",
         "archive_dir": "/var/backups/archive",
-        "file_exts": [".tar", ".tar.gz", ".tar.bz2", ".zip"]
+        "file_exts": [".tar", ".tar.gz", ".tar.bz2", ".zip"],
         "weekly_count": 10
     }    
     
