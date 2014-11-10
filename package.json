@@ -1,0 +1,37 @@
+{
+  "name": "backup-rotate",
+  "version": "0.0.0",
+  "description": "Rotates backups in hourly/daily/weekly folders",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Insorum/backup-rotate.git"
+  },
+  "keywords": [
+    "backup",
+    "rotate",
+    "script"
+  ],
+  "author": "Eluinhost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Insorum/backup-rotate/issues"
+  },
+  "homepage": "https://github.com/Insorum/backup-rotate",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "load-grunt-tasks": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
