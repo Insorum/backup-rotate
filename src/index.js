@@ -1,1 +1,1 @@
-console.log('WARNING: Scipt incomplete, work in progress');
+console.log('WARNING: Script incomplete, work in progress');
